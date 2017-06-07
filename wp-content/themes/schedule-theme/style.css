@@ -1,0 +1,211 @@
+/*
+	Theme Name: Schedule Bootstrap Theme 1.0
+	Theme URI: http://brilliant-graphics.com
+	Description: Brilliant Schedule Bootstrap Theme 1.0
+	Version: 1.0
+	Author: Joe Sheehan
+	Author URI: http://sheehanweb.com
+	Tags: HTML5, CSS3, Bootstrap, Responsive
+
+	License: MIT
+	License URI: http://opensource.org/licenses/mit-license.php
+*/
+
+/*-- Global --*/
+
+html {
+	
+}
+
+body {
+	
+}
+
+p {
+	
+}
+
+h1, h2, h3, h4, h5, h6 {
+	
+}
+
+strong {
+	
+}
+.navbar {
+	margin-bottom:0!important;
+}
+.jumbotron {
+	margin-top: 30px;
+	background-color:rgba(236,240,241,0.78)!important;
+}
+.header-bg {
+	background: url(img/background.jpg) no-repeat center;
+	background-size: cover;
+	min-height: 300px;
+	margin-bottom: 30px;
+}
+/*-- Sortable -- */
+body.dragging, body.dragging * {
+  	cursor: move !important;
+}
+
+.dragged {
+ 	position: absolute;
+  	opacity: 0.5;
+  	z-index: 2000;
+}
+
+.sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 100%; 
+}
+
+.sortable li { 
+	margin: 0 3px 3px 3px; 
+	padding: 0.4em; 
+ 
+	
+}
+.sortable li span { 
+	position: absolute; 
+	margin-left: -1.3em; 
+}
+
+/*-- end sortable --*/
+.padding-top {
+	padding-top:10px;
+}
+
+.navbar {
+	border-radius: 0!important;
+}
+.two-fifty {
+	max-width:250px;
+	display:inline-block;
+	vertical-align: bottom;
+}
+.footer {
+	margin-top:50px;
+}
+.pagination .current {
+	background-color:#b10f14;
+}
+.center-block {
+	text-align: center;
+}
+.form-control {
+	padding:5px!important;
+}
+.table-fix-zu {
+	overflow-x: auto;
+    min-width: 100%;
+    table-layout: fixed;
+}
+.table-sm {
+	min-width: 30px;
+}
+.table-md {
+	min-width:80px;
+}
+.table-lg {
+	min-width: 300px;
+}
+.modal-dialog{
+	width:inherit!important;
+}
+.max-sixhundred {
+	max-width:600px;
+}
+.modal-body #regularButton {
+	display:none;
+}
+#schedulerButton {
+	display:none;
+}
+.modal-body #schedulerButton {
+	display:inherit;
+}
+.modal-body .showOnAll {
+	display:none;
+}
+.showOnScheduler {
+	display:none;
+}
+.modal-body .showOnScheduler {
+	display:inherit;
+}
+.timeBlock, .timeBlockBtn {
+	background-color:#3e3e3e!important;
+	border-color:#3e3e3e!important;
+	color:white;
+}
+.ui-datepicker  {
+	background-color: white;
+}
+input.datepicker, button.moveBtn {
+	display:none;
+}
+.sortable .datepicker,.sortable button.moveBtn  {
+	display:inline-block;
+}
+.timeBlockUL {
+	list-style:none;
+	margin:0;
+	padding:0;
+}
+.timeBlockUL li {
+	padding:10px;
+	
+}
+.timeBlockBtn {
+	width:100%!important;
+}
+.active.well-now {
+	background-color:#ecf0f1;
+	padding: 19px;
+	margin-bottom:20px;
+	min-height:40px;
+	border-radius: 0px 4px 4px 4px;
+	vertical-align:top;
+}
+.tab-pane li {
+	display:none;
+}
+.active.tab-pane li {
+	display:block;
+}
+
+.nav-tabs > li.active a {
+	background-color:#ecf0f1!important;
+}
+.padding-top {
+	padding-top:20px;
+}
+	
+/*-- Responsive --*/
+
+@media only screen and (min-width:320px) {
+
+}
+@media only screen and (min-width:480px) {
+
+}
+@media only screen and (min-width:768px) {
+
+}
+@media only screen and (min-width:1024px) {
+
+}
+@media only screen and (min-width:1140px) {
+
+}
+@media only screen and (min-width:1280px) {
+
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),
+	   only screen and (min-resolution:144dpi) {
+
+}
